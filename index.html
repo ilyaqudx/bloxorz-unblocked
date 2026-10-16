@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="1l2_RiYCAmp7s6J2NHcgw_LJhvbjY_CoSzl1ZSu_Lws" />
+  <title>Bloxorz Unblocked - Play Classic 3D Block Rolling Puzzle Online Free</title>
+  <meta name="description" content="Play Bloxorz Unblocked free online! Roll the 3D block across floating platforms, trigger switches, avoid fragile orange tiles, and drop into the hole. 100% unblocked on school Chromebooks.">
+  <meta name="keywords" content="bloxorz, bloxorz unblocked, bloxorz cool math games, play bloxorz online, bloxorz original, bloxorz level codes, 3d block puzzle">
+  <link rel="canonical" href="https://bloxorz-unblocked.vercel.app/">
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bloxorz Unblocked - Play Classic 3D Block Puzzle">
+  <meta property="og:description" content="Test your spatial logic with 33 levels of 3D isometric block rolling. Free, fast, unblocked.">
+  <meta property="og:url" content="https://bloxorz-unblocked.vercel.app/">
+  <meta property="og:image" content="https://bloxorz-unblocked.vercel.app/og-image.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Bloxorz Unblocked Online">
+  <meta name="twitter:description" content="Roll the block into the hole without falling off the edge. Play instantly.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebApplication",
+        "@id": "https://bloxorz-unblocked.vercel.app/#app",
+        "name": "Bloxorz Unblocked",
+        "url": "https://bloxorz-unblocked.vercel.app/",
+        "applicationCategory": "GameApplication",
+        "genre": "3D Puzzle",
+        "operatingSystem": "All",
+        "browserRequirements": "Requires HTML5 Canvas support",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "description": "Bloxorz is a legendary 3D isometric spatial puzzle game where players roll a rectangular block across floating platforms to fit it into the square exit hole."
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://bloxorz-unblocked.vercel.app/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do you play Bloxorz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Use the arrow keys or WASD to roll your rectangular block across the grid. The objective is to make the block stand vertically and fall into the square goal hole at the end of each stage without tumbling off the edge."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What are the rules for orange tiles in Bloxorz?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Orange tiles are fragile. Your block can lie flat across them horizontally or vertically, but if your block stands vertically on a single orange tile, the tile will collapse under its weight, causing the block to plunge into the abyss."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do round and cross switches work?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Round 'O' switches (soft switches) activate bridges when touched in any orientation. Cross 'X' switches (hard switches) require much more weight and are only triggered when the block stands vertically on end."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Bloxorz Unblocked safe for school Chromebooks?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Bloxorz Unblocked is built in modern client-side HTML5 canvas with zero Flash, no intrusive ads, and no external tracking, making it completely safe and accessible on school Chromebooks and restricted networks."
+            }
+          }
+        ]
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://bloxorz-unblocked.vercel.app/#breadcrumb",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://bloxorz-unblocked.vercel.app/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Bloxorz Unblocked",
+            "item": "https://bloxorz-unblocked.vercel.app/"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <span class="brand-icon">🧱</span>
+          <div class="brand-text">
+            <span class="brand-title">BLOXORZ</span>
+            <span class="brand-badge">UNBLOCKED 3D</span>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <button id="btn-sound" class="icon-btn" title="Toggle Sound" aria-label="Audio Toggle">
+            <span id="sound-icon">🔊</span>
+          </button>
+          <button id="btn-help" class="icon-btn" title="How to Play" aria-label="Help">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <main class="main-content">
+      <div class="game-container">
+        <!-- Status Bar -->
+        <div class="status-bar">
+          <div class="status-left">
+            <div class="stat-item">Stage: <strong id="stage-num">1</strong></div>
+            <div class="stat-item">Passcode: <span id="stage-code" class="code-pill">780464</span></div>
+          </div>
+          <div class="status-right">
+            <div class="stat-item">Moves: <strong id="move-count">0</strong></div>
+          </div>
+        </div>
+
+        <!-- Controls Toolbar -->
+        <div class="toolbar-row">
+          <div class="btn-group">
+            <button id="btn-restart" class="btn primary" title="Restart Stage (R)">🔄 Restart</button>
+            <button id="btn-undo" class="btn" title="Undo Move (U)">↩️ Undo</button>
+          </div>
+
+          <form id="passcode-form" class="passcode-form">
+            <input type="text" id="passcode-input" class="passcode-input" placeholder="Passcode" maxlength="6" aria-label="Enter Stage Passcode">
+            <button type="submit" class="btn">Jump</button>
+          </form>
+        </div>
+
+        <!-- Canvas -->
+        <div class="canvas-wrapper">
+          <canvas id="bloxorz-canvas" aria-label="Bloxorz 3D Isometric Game Canvas"></canvas>
+        </div>
+
+        <!-- D-Pad for Mobile Touch -->
+        <div class="dpad-container">
+          <div class="dpad-row">
+            <button class="dpad-btn" data-dir="up" title="Up (W / ↑)">▲</button>
+          </div>
+          <div class="dpad-row">
+            <button class="dpad-btn" data-dir="left" title="Left (A / ←)">◀</button>
+            <button class="dpad-btn" data-dir="down" title="Down (S / ↓)">▼</button>
+            <button class="dpad-btn" data-dir="right" title="Right (D / →)">▶</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEO Educational Content -->
+      <section class="seo-section">
+        <article class="seo-card">
+          <h1>Bloxorz Unblocked: The Classic 3D Block Rolling Puzzle</h1>
+          <p>Welcome to <strong>Bloxorz Unblocked</strong>, the definitive modern HTML5 recreation of the timeless isometric brain-teaser. Originally captivating millions on classic gaming sites like Cool Math Games, Bloxorz challenges your three-dimensional spatial reasoning as you navigate a rectangular block through floating platforms, switches, and precarious chasms.</p>
+
+          <h2>🎯 How to Play Bloxorz</h2>
+          <ul>
+            <li><strong>Objective</strong>: Roll your 1x1x2 rectangular stone block across the floating maze and navigate it into the square exit hole. The block must stand <strong>completely vertically</strong> on end over the hole to finish the stage.</li>
+            <li><strong>Controls</strong>: Use the arrow keys or <b>W, A, S, D</b> to roll. On touchscreens, swipe anywhere on the canvas or tap the directional D-Pad below.</li>
+            <li><strong>Avoid the Abyss</strong>: If any portion of your block extends beyond the platform edges or lands on an open chasm, it plunges into the void!</li>
+            <li><strong>Passcode Resumes</strong>: Every stage features an authentic 6-digit passcode. Enter any passcode in the toolbar jump box to resume your journey anytime!</li>
+          </ul>
+
+          <h2>⚡ Special Tiles & Switch Mechanics</h2>
+          <ul>
+            <li><strong>Normal Floor (Gray)</strong>: Solid and sturdy stone. Supports the block in any standing or lying orientation.</li>
+            <li><strong>Fragile Tiles (Orange)</strong>: Delicate surface. Your block can safely lie horizontally or vertically across them, but standing vertically on a single orange tile will cause it to shatter instantly!</li>
+            <li><strong>Soft Switches (Circle 'O')</strong>: Light-pressure switches that toggle bridges when touched by the block in any orientation.</li>
+            <li><strong>Hard Switches (Cross 'X')</strong>: Heavy-duty switches that only trigger when the block stands vertically on end, demanding precise approach angles.</li>
+          </ul>
+
+          <h2>🔑 Bloxorz Stage Passcodes Directory</h2>
+          <div class="passcode-table-wrap">
+            <table class="passcode-table">
+              <thead>
+                <tr>
+                  <th>Stage</th>
+                  <th>Level Name</th>
+                  <th>Passcode</th>
+                  <th>Key Feature</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>1</td><td>The Basics</td><td><code>780464</code></td><td>Introductory turns & geometry</td></tr>
+                <tr><td>2</td><td>Soft Switches</td><td><code>290299</code></td><td>First bridge & circular switch</td></tr>
+                <tr><td>3</td><td>Fragile Tiles</td><td><code>348632</code></td><td>Orange collapsible tiles</td></tr>
+                <tr><td>4</td><td>Precision Bridges</td><td><code>612849</code></td><td>Hard cross switch 'X' activation</td></tr>
+                <tr><td>5</td><td>Orange Causeway</td><td><code>198642</code></td><td>Extended fragile pathway</td></tr>
+                <tr><td>6</td><td>Dual Control</td><td><code>294718</code></td><td>Multi-switch coordination</td></tr>
+                <tr><td>7</td><td>Zigzag Chasm</td><td><code>812739</code></td><td>Perilous narrow corridors</td></tr>
+                <tr><td>8</td><td>Island Hopper</td><td><code>918374</code></td><td>Chained bridges & island hops</td></tr>
+                <tr><td>9</td><td>Fragile Gauntlet</td><td><code>472910</code></td><td>Tight timing on orange tiles</td></tr>
+                <tr><td>10</td><td>The Master Labyrinth</td><td><code>629104</code></td><td>Grand master final trial</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <!-- FAQ Section -->
+        <article class="seo-card">
+          <h2>❓ Frequently Asked Questions (FAQ)</h2>
+          <div class="faq-list">
+            <details open>
+              <summary>Why is Bloxorz so popular on school Chromebooks?</summary>
+              <p>Bloxorz is celebrated for its pure logic and lack of time pressure. Because this version is built in lightweight client-side HTML5 with zero Flash and no blocked external servers, it runs smoothly and silently on school and workplace networks.</p>
+            </details>
+            <details>
+              <summary>How many levels are there in Bloxorz?</summary>
+              <p>The original Bloxorz contains 33 stages of escalating difficulty. Our HTML5 edition features the classic stages and authentic passcodes so you can jump right to your favorite puzzle.</p>
+            </details>
+            <details>
+              <summary>Can I undo my last roll?</summary>
+              <p>Yes! Press 'U' on your keyboard or click the 'Undo' button in the toolbar to step back your moves without losing your stage progress.</p>
+            </details>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- Modals -->
+    <div id="modal-win" class="modal-overlay" hidden>
+      <div class="modal-card">
+        <div class="modal-icon">🏆</div>
+        <h3 id="win-stage-title" class="modal-title">Stage Complete!</h3>
+        <p class="modal-desc">
+          Magnificent spatial maneuvering! Your passcode for the next stage is: <strong id="next-passcode" class="code-pill">------</strong>.
+        </p>
+        <div class="modal-actions">
+          <button id="btn-next-stage" class="btn primary">Next Stage ➔</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-fall" class="modal-overlay" hidden>
+      <div class="modal-card">
+        <div class="modal-icon">💀</div>
+        <h3 class="modal-title">You Plunged Off the Edge!</h3>
+        <p class="modal-desc">The block fell into the infinite void. Steady your rolls and try again!</p>
+        <div class="modal-actions">
+          <button id="btn-retry" class="btn primary">Retry Stage (R)</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-help" class="modal-overlay" hidden>
+      <div class="modal-card">
+        <div class="modal-icon">📖</div>
+        <h3 class="modal-title">Bloxorz Controls & Rules</h3>
+        <p class="modal-desc">
+          Roll the block into the goal hole. The block must stand <strong>vertically</strong> over the hole to complete the stage.<br><br>
+          <b>Controls:</b> Arrow keys / WASD or swipe.<br>
+          <b>Orange Tiles:</b> Never stand vertically on them!<br>
+          <b>Switches:</b> Soft 'O' triggers on any touch; Hard 'X' triggers only when standing.
+        </p>
+        <div class="modal-actions">
+          <button class="btn primary modal-close">Got It!</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Matrix Footer -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="matrix-title">🎮 More Free Online Games (SEO Matrix)</div>
+        <div class="matrix-grid">
+          <a href="https://bloxorz-unblocked.vercel.app" class="matrix-link current">
+            <span>🧱</span> Bloxorz Unblocked
+          </a>
+          <a href="https://hex-2048-nu.vercel.app" class="matrix-link" target="_blank" rel="noopener">
+            <span>⬢</span> 2048 Hexagonal
+          </a>
+          <a href="https://seo-game-website.vercel.app" class="matrix-link" target="_blank" rel="noopener">
+            <span>🔷</span> Hextris Unblocked
+          </a>
+          <a href="https://waffle-game-unlimited.vercel.app" class="matrix-link" target="_blank" rel="noopener">
+            <span>🧇</span> Waffle Game Unlimited
+          </a>
+          <a href="https://falling-sand-game-one.vercel.app" class="matrix-link" target="_blank" rel="noopener">
+            <span>⏳</span> Falling Sand Simulator
+          </a>
+        </div>
+        <p class="footer-copy">© 2026 Bloxorz Unblocked · Free, Lightweight & Unblocked HTML5 Browser Games</p>
+      </div>
+    </footer>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
